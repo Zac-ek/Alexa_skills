@@ -1,0 +1,46 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "pregunta",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "PreguntasIntent",
+          "samples": [
+            "Quiero saber {pregunta}",
+            "Muestra {pregunta}",
+            "Me gustaría saber {pregunta}",
+            "Puedes decirme {pregunta}",
+            "Responde a {pregunta}"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "saluda zacek"
+    }
+  }
+}
